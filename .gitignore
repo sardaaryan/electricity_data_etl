@@ -1,0 +1,35 @@
+# --- Credentials & Secrets ---
+.env
+
+# --- Database & Local Data ---
+# We ignore the .sqlite file so your repo stays light. 
+# Recruiters should run your code to generate their own local DB.
+*.sqlite
+data/
+
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

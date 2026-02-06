@@ -1,0 +1,13 @@
+# config.yaml
+api:
+  base_url: "https://api.eia.gov/v2/electricity/retail-sales/data/"
+  frequency: "monthly"
+  facets:
+    state: ["NY", "CA", "TX"] # Add as many as you want now!
+
+database:
+  db_name: "electricity_data.sqlite"
+  table_name: "electricity_prices"
+
+batch_settings:
+  length: 1000 # Records per API call

@@ -1,0 +1,12 @@
+# Data Extraction & HTTP
+requests>=2.32.3
+
+# Data Manipulation & Analysis
+pandas>=2.0.1
+
+# Database & SQL ORM
+sqlalchemy>=2.0.32
+
+# Configuration & Environment
+pyyaml>=6.0.2
+python-dotenv>=1.2.1
